@@ -3,7 +3,7 @@
 Projeto contendo a implementação dos algoritimos propostos na *Aula 2*
 
 ## Algoritimos resolvidos:
-*
+* Soma dos primeiros naturais
 
 ## Instruções para execução dos testes:
 Execução dos testes unitários:
