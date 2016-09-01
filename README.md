@@ -13,6 +13,6 @@ Execução dos testes com cobertura:
 `mvn package -P cobertura`
 
 ----------
-Universidade Federal de Goiás
-Engenharia de Software
-Construção de Software 2016/02
+Universidade Federal de Goiás  
+Engenharia de Software  
+Construção de Software 2016/02  
