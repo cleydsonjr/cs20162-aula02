@@ -1,6 +1,6 @@
 package br.ufg.cs.cleydsonjr;
 
-public class AlgoritimosAula2 {
+public class SomaNaturais {
 
     public int somaNaturais(int n) {
         if (n < 1) {
