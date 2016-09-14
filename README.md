@@ -6,6 +6,7 @@ Projeto contendo a implementação dos algoritimos propostos na *Aula 2*
 * Soma dos primeiros naturais
 * Produto de inteiros positivos
 * Potência usando somas
+* Propriedade 3025
 
 ## Instruções para execução dos testes:
 Execução dos testes unitários:
