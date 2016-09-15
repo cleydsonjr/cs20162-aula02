@@ -8,6 +8,7 @@ Projeto contendo a implementação dos algoritimos propostos na *Aula 2*
 * Potência usando somas
 * Propriedade 3025
 * Propriedade 153
+* Número primo
 
 ## Instruções para execução dos testes:
 Execução dos testes unitários:
