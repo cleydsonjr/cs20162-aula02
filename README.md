@@ -7,6 +7,7 @@ Projeto contendo a implementação dos algoritimos propostos na *Aula 2*
 * Produto de inteiros positivos
 * Potência usando somas
 * Propriedade 3025
+* Propriedade 153
 
 ## Instruções para execução dos testes:
 Execução dos testes unitários:
