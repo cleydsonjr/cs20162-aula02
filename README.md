@@ -9,6 +9,7 @@ Projeto contendo a implementação dos algoritimos propostos na *Aula 2*
 * Propriedade 3025
 * Propriedade 153
 * Número primo
+* Crivo de Eratostenes
 
 ## Instruções para execução dos testes:
 Execução dos testes unitários:

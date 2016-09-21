@@ -5,6 +5,8 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.assertArrayEquals;
 
 public class CrivoDeEratostenesTest {
@@ -41,10 +43,12 @@ public class CrivoDeEratostenesTest {
 
     @Test
     public void crivoRealizadoComSucesso() {
-        int n = 7;
-        int[] a = new int[8];
-        int[] esperado = new int[]{0, 0, 1, 0, 1, 0, 1, 0};
+        int n = 8;
+        int[] a = new int[9];
+        // Array representando os números [0,1,2,3,4,5,6,7,8]
+        int[] esperado = new int[]{0, 0, 1, 1, 0, 1, 0, 1, 0};
 
-        assertArrayEquals(esperado, eratostenes.realizeCrivo(a, n));
+        int[] resultado = eratostenes.realizeCrivo(a, n);
+        assertArrayEquals(esperado, resultado);
     }
 }
