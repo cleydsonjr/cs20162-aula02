@@ -10,6 +10,7 @@ Projeto contendo a implementação dos algoritimos propostos na *Aula 2*
 * Propriedade 153
 * Número primo
 * Crivo de Eratostenes
+* Maior divisor comum
 
 ## Instruções para execução dos testes:
 Execução dos testes unitários:
