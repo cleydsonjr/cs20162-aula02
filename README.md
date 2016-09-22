@@ -11,6 +11,7 @@ Projeto contendo a implementação dos algoritimos propostos na *Aula 2*
 * Número primo
 * Crivo de Eratostenes
 * Maior divisor comum
+* Número harmônico
 
 ## Instruções para execução dos testes:
 Execução dos testes unitários:
