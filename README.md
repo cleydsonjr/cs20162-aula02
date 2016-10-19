@@ -2,6 +2,8 @@
 
 Projeto contendo a implementação dos algoritimos propostos na *Aula 2*
 
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=br.ufg.cs.cleydsonjr:cs20162-aula02)](https://sonarqube.com/dashboard/index?id=br.ufg.cs.cleydsonjr%3Acs20162-aula02)
+
 ## Algoritimos resolvidos:
 * Soma dos primeiros naturais
 * Produto de inteiros positivos
