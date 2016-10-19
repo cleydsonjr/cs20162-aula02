@@ -1,15 +1,22 @@
+/*
+ * Copyright (c) 2016. Cleydson José de Figueiredo Júnior
+ * Creative Commons Attribution 4.0 International License.
+ */
 package br.ufg.cs.cleydsonjr;
 
+/**
+ * Implementação para cálculo de potências usando apenas somas.
+ */
 public class PotenciaUsandoSomas {
 
     /**
-     * Método auxiliar para cálculo de potências usando apenas somas
+     * Método auxiliar para cálculo de potências usando apenas somas.
      *
      * @param x Número que se deseja elevar a potência
      * @param y Grau da potência
      * @return O resultado do cálculo da potência
      */
-    public int potenciaUsandoSomas(int x, int y) {
+    public final int potenciaUsandoSomas(final int x, final int y) {
         if (x < 0 || y < 0) {
             throw new IllegalArgumentException("Números informados inválidos: " + x + ", " + y);
         }

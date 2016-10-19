@@ -1,16 +1,23 @@
+/*
+ * Copyright (c) 2016. Cleydson José de Figueiredo Júnior
+ * Creative Commons Attribution 4.0 International License.
+ */
 package br.ufg.cs.cleydsonjr;
 
+/**
+ * Implementação do algorítmo do Crivo de Erastotenes.
+ */
 public class CrivoDeEratostenes {
 
     /**
      * Método auxiliar para validar as posições do array como sendo números primos ou não.
-     * Marcará a posição com valor 1 para números primos e 0 pra não primos
+     * Marcará a posição com valor 1 para números primos e 0 pra não primos.
      *
      * @param a O array a ser validado, inicialmente com todas as posições com valor 0
      * @param n Índice final do array a
      * @return o Array a modificado
      */
-    int[] realizeCrivo(int[] a, int n) {
+    final int[] realizeCrivo(final int[] a, final int n) {
         if (n < 1) {
             throw new IllegalArgumentException("Número inválido fornecido: " + n);
         }
