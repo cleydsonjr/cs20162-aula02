@@ -20,12 +20,9 @@ public class SomaNaturais {
             throw new IllegalArgumentException("Número inválido fornecido: " + n);
         }
 
-        int i = 2;
         int s = 1;
-
-        while (i <= n) {
+        for (int i = 2; i <= n; i++) {
             s = s + i;
-            i = i + 1;
         }
 
         return s;
